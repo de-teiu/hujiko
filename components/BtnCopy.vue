@@ -1,5 +1,5 @@
 <template>
-  <a class="copy">コピー</a>
+  <a class="copy" v-on:click="copyqaws">コピー</a>
 </template>
 
 <style scoped>
@@ -64,3 +64,21 @@
   top: 1px;
 }
 </style>
+<script>
+export default {
+  data() {
+    return {};
+  },
+  methods: {
+    copyqaws() {
+      const ta = document.createElement("textarea");
+      ta.value = "くぁwせdrftgyふじこlp；＠：「」";
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      ta.parentElement.removeChild(ta);
+      alert("クリップボードにコピーしました.");
+    }
+  }
+};
+</script>
