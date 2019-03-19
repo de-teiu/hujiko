@@ -7,7 +7,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: "ふくぁwせdrftgyふじこlp；＠：「」ボタン",
+    title: "くぁwせdrftgyふじこlp；＠：「」ボタン",
     meta: [{
         charset: 'utf-8'
       },
@@ -75,6 +75,15 @@ export default {
   modules: [
     '@nuxtjs/pwa',
   ],
+  manifest: {
+    name: 'hujiko',
+    lang: 'ja',
+    short_name: 'hujiko',
+    title: 'くぁwせdrftgyふじこlp；＠：「」ボタン',
+    'og:title': 'くぁwせdrftgyふじこlp；＠：「」ボタン',
+    description: 'くぁwせdrftgyふじこlp；＠：「」をツイートまたはクリップボードにコピーするアプリです.',
+    'og:description': 'くぁwせdrftgyふじこlp；＠：「」をツイートまたはクリップボードにコピーするアプリです.'
+  },
 
   /*
    ** Build configuration
