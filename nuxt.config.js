@@ -7,7 +7,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: pkg.name,
+    title: "ふくぁwせdrftgyふじこlp；＠：「」ボタン",
     meta: [{
         charset: 'utf-8'
       },
@@ -33,7 +33,7 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "くぁwせdrftgyふじこlp；＠：「」"
+        content: "くぁwせdrftgyふじこlp；＠：「」ボタン"
       },
       {
         name: "twitter:description",
