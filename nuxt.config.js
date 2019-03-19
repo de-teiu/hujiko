@@ -82,7 +82,9 @@ export default {
     title: 'くぁwせdrftgyふじこlp；＠：「」ボタン',
     'og:title': 'くぁwせdrftgyふじこlp；＠：「」ボタン',
     description: 'くぁwせdrftgyふじこlp；＠：「」をツイートまたはクリップボードにコピーするアプリです.',
-    'og:description': 'くぁwせdrftgyふじこlp；＠：「」をツイートまたはクリップボードにコピーするアプリです.'
+    'og:description': 'くぁwせdrftgyふじこlp；＠：「」をツイートまたはクリップボードにコピーするアプリです.',
+    theme_color: '#ffffff',
+    background_color: '#ffffff'
   },
 
   /*
