@@ -1,6 +1,6 @@
 <template>
   <a
-    class="tweet"
+    class="tweet" target="_blank"
     href="https://twitter.com/intent/tweet?text=%E3%81%8F%E3%81%81%EF%BD%97%E3%81%9B%EF%BD%84%EF%BD%92%EF%BD%86%EF%BD%94%EF%BD%87%EF%BD%99%E3%81%B5%E3%81%98%E3%81%93%EF%BD%8C%EF%BD%90%EF%BC%9B%EF%BC%A0%EF%BC%9A%E3%80%8C%E3%80%8D%0A%0A&url=https%3A%2F%2Fhujiko.netlify.com%2F"
   >ツイート</a>
 </template>
