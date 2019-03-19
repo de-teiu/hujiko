@@ -71,12 +71,26 @@ export default {
   },
   methods: {
     copyqaws() {
-      const ta = document.createElement("textarea");
-      ta.value = "くぁwせdrftgyふじこlp；＠：「」";
-      document.body.appendChild(ta);
-      ta.select();
+      const str = "くぁwせdrftgyふじこlp；＠：「」";
+
+      const elm = document.createElement("textarea");
+      elm.value = str;
+      document.body.appendChild(elm);
+      elm.select();
+
+      //rangeでtextarea内の文字を選択
+      var range = document.createRange();
+      range.selectNodeContents(elm);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      elm.setSelectionRange(0, 999999);
+
+      //execCommandを実施
       document.execCommand("copy");
-      ta.parentElement.removeChild(ta);
+
+      //textareaを削除
+      elm.parentElement.removeChild(elm);
       alert("クリップボードにコピーしました.");
     }
   }
